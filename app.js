@@ -138,4 +138,4 @@ function sauvegarderEtReset(msg) {
     localStorage.setItem(STORAGE_KEYS.weights, JSON.stringify(weights));
     alert(msg);
     location.reload();
-}
+                           }
